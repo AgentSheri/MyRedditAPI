@@ -11,7 +11,7 @@ import java.util.Date;
 public class BaseEntity {
     @Id
     @Column(name = "id", nullable = false)
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @CreatedDate
